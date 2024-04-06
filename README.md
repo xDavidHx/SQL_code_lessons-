@@ -59,3 +59,16 @@ FROM dehproject24.Covid_19_Data.Covid_19_deaths_vs_Vaccinations
 
 WHERE
  NOT Entity = 'United States' AND NOT Entity = 'Japan' AND NOT Entity = 'Afghanistan' AND NOT code is NULL
+
+---------------------
+** Using nested Statements within the "WHERE" clause**
+~Using a table named 'students' with the columns (name, dept and score) 
+
+SELECT dept
+FROM students	
+WHERE score > (
+
+	SELECT MAX(score) 
+	FROM students
+	WHERE dept = ‘ECE’
+               )
