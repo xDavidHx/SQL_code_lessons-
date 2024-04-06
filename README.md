@@ -46,12 +46,12 @@ FROM dehproject24.Covid_19_Data.Covid_19_deaths_vs_Vaccination
 WHERE Entity LIKE 'Ind_a%';
 
 ---------------------
-Using ORDER BY 
+**Using ORDER BY**
 "GROUP BY does NOT sort data, but ORDER BY DOES"
 You can order by your aliased names/have your aliased names in your ORDER BY statement. 
 
 ---------------------
-**Using 'AND' & 'NOT' operators
+**Using 'AND' & 'NOT' operators**
 Select 
   Entity, code, continent
 
