@@ -13,8 +13,10 @@ Syntax: SELECT DISTINCT column FROM table
 
 **Example** 
 ```
-SELECT DISTINCT(Entity)
-FROM dehproject24.Covid_19_Data.Covid_19_deaths_vs_Vaccination
+SELECT
+	 DISTINCT(Entity)
+FROM
+	 dehproject24.Covid_19_Data.Covid_19_deaths_vs_Vaccination
 ```
 ---------------------
 
@@ -28,8 +30,8 @@ Select
 	 COUNT(DISTINCT(Entity)) AS distinct_entities, Entity, 
 FROM
 	 dehproject24.Covid_19_Data.Covid_19_deaths_vs_Vaccinations
-Group BY entity 
-ORDER BY entity DESC
+	Group BY entity 
+	ORDER BY entity DESC
 ```
 ---------------------
 
