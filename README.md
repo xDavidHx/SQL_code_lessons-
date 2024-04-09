@@ -1,6 +1,9 @@
 **Intermediate_SQL_code_lessons**
 Building a list of Current Skills Learned Within SQL and description of how they Work! 
-#Note: This is only practice with intent to learn the skill more effecively but Creating a SQL guide on Github & lesson will be unordered. All names, tables, and columns were used from opensourced origins like Kaggle, and Data.world. 
+
+Note: This is only practice with intent to learn the skill more effecively but Creating a SQL guide on Github & lesson will be unordered. 
+
+All names, tables, and columns were used from opensourced origins like Kaggle, and Data.world. 
 ---------------------
 
 
